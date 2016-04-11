@@ -1,3 +1,5 @@
+// Computer chooses a random number from 1 10,000. Computer then tries to guess that number and counts how many guesses it makes until it is correct.
+
 var upper = 10000; // variable to define the upper limit of the  random number
 var randomNumber = getRandomnumber(upper); // number the computer has to guess, generates a number from 1 - 10000
 var guess; // variable to hold the computer's guess
